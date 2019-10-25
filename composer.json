@@ -1,0 +1,19 @@
+{
+    "name": "legalthings/letsflow-example",
+    "description": "Example app for letsflow",
+    "require": {
+        "legalthings/lto-api": "^0.2.7",
+        "guzzlehttp/guzzle": "^6.4",
+        "jasny/http-digest": "^1.2",
+        "jasny/http-signature": "^1.1",
+        "jasny/php-functions": "^4.1",
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "lib/"
+            ]
+        }
+    }
+}
